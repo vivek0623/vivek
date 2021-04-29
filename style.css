@@ -28,7 +28,7 @@ div{
     overflow:auto;
 }
 #background-image{
-    background-image: url("img/FG.jpg");
+    background-image: url("FG.jpg");
     height: 350px;
     padding-top: 50px;
     color: #fff;
