@@ -1,0 +1,114 @@
+body{max-width : 1000px;
+    margin: auto;
+    font-family: Roboto;
+    font-size: 16px;
+    color:;
+    background-color:;
+}
+h4{font:italic small-caps bolder 28px arial,sans-serif;}
+
+div{
+    border:1px ;
+    margin-top: 10px;
+    padding:5px;
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+#image{
+    float:left;
+    padding:0px 20px 20px 20px;
+}
+#identity{
+    overflow:auto;
+}
+#background-image{
+    background-image: url("img/FG.jpg");
+    height: 350px;
+    padding-top: 50px;
+    color: #fff;
+    margin-top: 50px;
+}
+#content{
+    background-color: rgba(0,0,0,0.7);
+    max-width: 450px;
+    padding: 30px 20px;
+    margin-top: 50px;
+}
+table{
+    border:1px solid;
+    width:100%;
+    border-collapse: collapse;
+}
+td,th{
+    padding:15px;
+    border:1px solid #a4a4a4;
+    height:30px;
+}
+th{ 
+text-align:left;
+background-color: #ececec;
+}
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a {
+    display: block;
+    color: #666;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+   
+}
+li a:hover {
+
+color:red;
+}
+
+.logo{
+    float:left;
+    height: 50px;
+}
+#header{
+    padding: 5px 0px;
+    border-bottom: 1px solid;
+}
+.container {
+    padding:20px;
+    margin:auto;
+    width:100%;
+    overflow-x:hidden;
+}
+@media (min-width:320px) {.container{
+                              width: 320px;
+                          }}
+@media (min-width:481px) {.container{
+                              width: 481px;
+                          }}
+@media (min-width:641px) {.container{
+                              width: 641px;
+                          }}
+@media (min-width:961px) {.container{
+                              width: 961px;
+                          }}
+@media (min-width:1000px) {.container{
+                              width: 1000px;
+                          }}
+@media (max-width:481){
+    .box{
+        width:100%;
+    }
+    #image{
+        width:100%;
+    }
+    h2{
+        text-align:center;
+    }
+}
